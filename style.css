@@ -182,7 +182,7 @@ footer {
     height: 36px;
 }
 
-@media(max-width:500px){
+@media(max-width:900px){
     .developmentskillstext{
         text-align: center;
    }
@@ -198,8 +198,6 @@ footer {
 
     .portfolio_projects_box {
         border: 1px solid black;
-        /*margin-left: 5em;
-        margin-right: 5em;*/
         width: 95%;
     } 
     
