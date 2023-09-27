@@ -181,3 +181,33 @@ footer {
     width: 36px;
     height: 36px;
 }
+
+@media(max-width:500px){
+    .developmentskillstext{
+        text-align: center;
+   }
+   
+   .skills{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #portfolio{
+        text-align: center;
+    }
+
+    .portfolio_projects_box {
+        border: 1px solid black;
+        /*margin-left: 5em;
+        margin-right: 5em;*/
+        width: 95%;
+    } 
+    
+    .inside_box_pic {
+        width: 85%;
+    }
+    
+    .project-description {
+        width: 95%;
+    }
+}
