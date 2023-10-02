@@ -183,6 +183,10 @@ footer {
 }
 
 @media(max-width:900px){
+    nav ul{
+        padding: 0px 0px;  
+    }
+
     .developmentskillstext{
         text-align: center;
    }
@@ -196,6 +200,11 @@ footer {
         text-align: center;
     }
 
+    .portfolio_projects_row_one, .portfolio_projects_row_two{
+        display: grid;
+        justify-items: center;
+    }
+
     .portfolio_projects_box {
         border: 1px solid black;
         width: 95%;
@@ -207,5 +216,53 @@ footer {
     
     .project-description {
         width: 95%;
+    }
+}
+
+@media (max-width:414px){
+    nav ul {
+        padding: 0px 0px;
+        display: flex;
+    }
+
+    .mypic{
+        width: 70%;
+    }
+    
+    #portfolio{
+        text-align: center;
+    }
+
+    .portfolio_projects_row_one, .portfolio_projects_row_two{
+        display: grid;
+    }
+    
+    .portfolio_projects_box {
+        height: 400px;
+        width: 340px;
+    } 
+    
+    .inside_box_pic {
+        height:100px;
+        width: 200px;
+    }
+    
+    .project-description {
+        font-size:small;
+        padding: 0px 2px 0px 8px;
+        text-align: center;
+    }
+
+    h1 {
+        font-size: 25px;
+    }
+
+    h3{
+        text-align: center;
+        padding: 0px 4px;
+    }
+
+    a.btn {
+        width:50%;
     }
 }
