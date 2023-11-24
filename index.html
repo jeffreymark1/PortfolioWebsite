@@ -21,123 +21,120 @@
         </nav>
     </header>
 
-    <br><br><br><br>
-
-    <section>
-        <p class = "intro_blurb">Hi my name is <br><span class="intro_blurb_name">Jeff Germain</span><br> I'm a Web Developer</p>
-        
-        <div class = "me">
+    <br><br>
+    
+    <section class="sectionOne">
+        <div class="sectOneDivOne">
+            <p class = "intro_blurb">Hi my name is <br><span class="intro_blurb_name">Jeff Germain</span><br> I'm a Web Developer</p>
             <img class = "mypic" src="images/mypic2.png" alt="my picture">
         </div>
-        
-        <br><br>
+        <div class="sectOneDivTwo">
+            <article class="about" id="about">
+                <p class = "aboutMe"><span class="seven">7</span> facts about me:</p>
+                    <ol>
+                        <li>My passion for coding stemmed from a traumatic experience -- my mom suffered a stroke and I became her full-time caretaker</li>
+                        <li>Prior to embarking on my coding journey, sales was my initial interest. I still love the sales process (prospecting, presenting, closing) and helping clients</li>
+                        <li>I chose the self taught route before I enrolled in the <a href ="https://generalassemb.ly/education/software-engineering-immersive-remote-flex#" target="_blank" ><img class="ga_logo" src="images/GA3.png" alt="ga-logo"></a> bootcamp</li>
+                        <li>As you can see from the photo above, I enjoy trying new foods and partaking in cultural cuisines. Please send your favorite restaurant recommendations. The aforementioned picture was taken at <a href="https://www.tavernonthegreen.com/" target="_blank">Tavern On The Green</a> in The Big Apple</li>
+                        <li>I love learning new technologies, tools, and programming languages. My strongest language currently is JavaScript but my very first language was Ruby on Rails. In addition the the skills listed below, I am in the process of learning React, Python, Java, PHP, MongoDB and PostgreSQL</li>
+                        <li>I am presently working on two websites, a travel website and an urgent care website for clients as a freelancer</li>
+                        <li>I just returned from a wonderful trip to Bermuda</li>
+                    </ol>
+            </article>
+        </div>
 
-        <article id="about">
-            <p class = "aboutMe"><span class="seven">7</span> facts about me:<br>
-                <ol>
-                    <li>My passion for coding stemmed from a traumatic experience -- my mom suffered a stroke and I became her full-time caretaker</li>
-                    <li>Prior to embarking on my coding journey, sales was my initial interest. I still love the sales process (prospecting, presenting, closing) and helping clients</li>
-                    <li>I chose the self taught route before I enrolled in the <a href ="https://generalassemb.ly/education/software-engineering-immersive-remote-flex#" target="_blank" ><img class="ga_logo" src="images/GA.png" alt="ga-logo"></a>bootcamp</li>
-                    <li>As you can see from the photo above, I enjoy trying new foods and partaking in cultural cuisines. Please send your favorite restaurant recommendations. The aforementioned picture was taken at <a href="https://www.tavernonthegreen.com/" target="_blank">Tavern On The Green</a> in The Big Apple</li>
-                    <li>I love learning new technologies, tools, and programming languages. My strongest language currently is JavaScript but my very first language was Ruby on Rails. In addition the the skills listed below, I am in the process of learning React, Python, Java, PHP, MongoDB and PostgreSQL</li>
-                    <li>I am presently working on two websites, a travel website and an urgent care website for clients as a freelancer</li>
-                    <li>I just returned from a wonderful trip to Bermuda</li>
-                </ol>
-            </p>
-        </article>
+        <div class="sectOneDivThree">
+            <h1 class="developmentskillstext">Web Development Skills</h1>
+                
+                    <div class = "skills">
+                        <div class="skillsFirst">
+                            <img class="skillsSquare" src="images/html-logo.png" alt="html logo">
+                            <img class="skillsSquare" src="images/css3-logo.svg" alt="css logo">
+                            <img class="skillsSquare" src="images/js-logo.png" alt="js logo">
+                            <img class="skillsRectangle-node" src="images/nodejs-logo.svg.png" alt="nodejs logo">
+                            <img class="skillsRectangle" src="images/expressjs.webp" alt="expressjs logo">
+                            <img class="skillsSquare-github" src="images/github_icon.svg" alt="github logo">
+                        </div>
+                        <div class="skillsSecond">
+                            <img class="skillsRectangle-axios" src="images/axios-logo.svg.png" alt="axios logo">
+                            <img class="skillsRectangle" src="images/json-logo.webp" alt="json logo">
+                            <img class="skillsRectangle-restful" src="images/restful-api-logo.png" alt="restful api logo">
+                            <img class="skillsSquare" src="images/http-logo.png" alt="http logo">
+                            <img class="skillsSquare-api" src="images/api-logo.png" alt="api logo">
+                        </div>
+                    </div>
+                
+        </div>
+    </section>
+
+    <section class="sectionTwo">
+        <h1  id="portfolio">Portfolio Projects</h1>
+            <div class="sectionTwoWrapOne">
+                <div class="rowFlexOne">
+                    <div class = "portfolio_projects_box black">
+                        <div class = "fake_cat_resume_description">
+                            <h1>Odyssey Noir</h1>
+                                <div class = "inside-box-pic-div"><img class="inside_box_pic" src="images/OdysseyNoirPic.png" alt="OdysseyNoirPic"></div>
+                            <p class="project-description">This was a freelance job, the clients tasked me to redo and update the website of their travel company.</p>
+                            <h3>HTML, CSS, JavaScript</h3>
+                            <br>
+                            <a href="https://odysseynoir.netlify.app/" class="btn" target="_blank">Website</a>
+                        </div>
+                    </div>
+
+                    
+                    <div class = "portfolio_projects_box">
+                        <div class = "fashion_blog_description">
+                            <h1>Fashion Blog</h1>
+                                <div class = "inside-box-pic-div"><img class="inside_box_pic" src="images/fashion-blog.jpg" alt="fashion-blog"></div>
+                            <p class="project-description">The objective of this project was to recreate a photo of a fashion blog using HTML and CSS.</p>
+                            <h3>HTML, CSS</h3>
+                            <br>
+                            <a href="https://fashionblogproject.netlify.app" class="btn" target="_blank">Website</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="rowFlexTwo">    
+                    <div class = "portfolio_projects_box">
+                        <div class = "open_weather_api_descriptioin">
+                            <h1>Open Weahter API</h1>
+                                <div class = "inside-box-pic-div"><img class="inside_box_pic" src="images/open-weather-api.png" alt="open-weather-website"></div>
+                            <p class="project-description">This project is a weather web application that is linked to the Open Weather API.</p>
+                            <h3>HTML, CSS, JavaScript, Axios, RESTful API</h3>
+                            <br>
+                            <a href="https://openweathersite.netlify.app" class="btn" target="_blank">Website</a>
+                        </div>
+                    </div>
+                    
+
+                    <div class = "portfolio_projects_box black">
+                        <div class = "final_project_description">
+                            <h1>Virgin Galactic Parallax</h1>
+                                <div class = "inside-box-pic-div"><img class="inside_box_pic" src="images/virgin-parallex.png" alt="virgin-parallex"></div>
+                            <p class="project-description">The goal of this project was to recreate the Virgin Galactic website using the parallax effect and NASA Mars Rover API.</p>
+                            <h3>HTML, CSS, JavaScript, Axios, Restful API</h3>
+                            <br>
+                            <a href="https://virgingalacticparallax.netlify.app" class="btn" target="_blank">Website</a>
+                        </div>
+                    </div>
+                </div>     
+            </div>
+
+        <div class = "sectionTwoWrapTwo">
+            <div class = "portfolio_projects_box">
+                <div class = "this_website_description">
+                    <h1>This Website</h1>
+                        <div class = "inside-box-pic-div"><img class="inside_box_pic" src="images/ThisWebsite.png" alt="this-website"></div>
+                    <p class="project-description">The objective was to create a portfolio website that displays my skills, mastered technologies, and leads to other projects.</p>
+                    <h3>HTML, CSS</h3>
+                    <br>
+                    <a href="https://github.com/jeffreymark1/PortfolioWebsite" class="btn" target="_self">GitHub</a>
+                </div>
+            </div>
+        </div>
     </section>
     
-    <br><br>
-
-    <h1 class="developmentskillstext">Development Skills</h1>
-    <div class = "skills">
-        <img src="images/html-logo.png" alt="html logo">
-        <img src="images/css3-logo.svg" alt="css logo">
-        <img src="images/js-logo.png" alt="js logo">
-        <img class="rectangle" src="images/nodejs-logo.svg.png" alt="nodejs logo">
-        <img class="rectangle" src="images/expressjs.webp" alt="expressjs logo">
-        <img src="images/github_icon.svg" alt="github logo">
-        <img class="rectangle-axios" src="images/axios-logo.svg.png" alt="axios logo">
-        <img class="rectangle" src="images/json-logo.webp" alt="json logo">
-        <img class="rectangle" src="images/restful-api-logo.png" alt="restful api logo">
-        <img src="images/http-logo.png" alt="http logo">
-        <img src="images/api-logo.png" alt="api logo">
-    </div>
-
-    <br><br><br><br>
-
-    <h1  id="portfolio">Portfolio Projects</h1>
-    
-    <div class = "portfolio_projects_row_one">
-        <div class = "portfolio_projects_box">
-            <div class = "fake_cat_resume_description">
-                <h1>Odyssey Noir</h1>
-                    <div class = "inside-box-pic-div"><img class="inside_box_pic" src="images/OdysseyNoirPic.png" alt="OdysseyNoirPic"></div>
-                <p class="project-description">This was a freelance job, the clients tasked me to redo and update the website of their travel company.</p>
-                <h3>HTML, CSS, JavaScript</h3>
-                <br>
-                <a href="https://odysseynoir.netlify.app/" class="btn" target="_blank">Website</a>
-            </div>
-        </div>
-
-        <br><br>
-        
-        <div class = "portfolio_projects_box">
-            <div class = "fashion_blog_description">
-                <h1>Fashion Blog</h1>
-                    <div class = "inside-box-pic-div"><img class="inside_box_pic" src="images/fashion-blog.jpg" alt="fashion-blog"></div>
-                <p class="project-description">The objective of this project was to recreate a photo of a fashion blog using HTML and CSS.</p>
-                <h3>HTML, CSS</h3>
-                <br>
-                <a href="https://fashionblogproject.netlify.app" class="btn" target="_blank">Website</a>
-            </div>
-        </div>
-    </div>
-    
-    <br><br><br><br>
-
-    <div class = "portfolio_projects_row_two">
-        <div class = "portfolio_projects_box">
-            <div class = "open_weather_api_descriptioin">
-                <h1>Open Weahter API</h1>
-                    <div class = "inside-box-pic-div"><img class="inside_box_pic" src="images/open-weather-api.png" alt="open-weather-website"></div>
-                <p class="project-description">This project is a weather web application that is linked to the Open Weather API.</p>
-                <h3>HTML, CSS, JavaScript, Axios, RESTful API</h3>
-                <br>
-                <a href="https://openweathersite.netlify.app" class="btn" target="_blank">Website</a>
-            </div>
-        </div>
-        
-        <br><br>
-
-        <div class = "portfolio_projects_box">
-            <div class = "final_project_description">
-                <h1>Virgin Galactic Parallax</h1>
-                    <div class = "inside-box-pic-div"><img class="inside_box_pic" src="images/virgin-parallex.png" alt="virgin-parallex"></div>
-                <p class="project-description">The goal of this project was to recreate the Virgin Galactic website using the parallax effect and NASA Mars Rover API.</p>
-                <h3>HTML, CSS, JavaScript, Axios, Restful API</h3>
-                <br>
-                <a href="https://virgingalacticparallax.netlify.app" class="btn" target="_blank">Website</a>
-            </div>
-        </div> 
-    </div>
-
-    <br><br><br><br>
-
-    <div class = "portfolio_projects_row_three">
-        <div class = "portfolio_projects_box">
-            <div class = "this_website_description">
-                <h1>This Website</h1>
-                    <div class = "inside-box-pic-div"><img class="inside_box_pic" src="images/ThisWebsite.png" alt="this-website"></div>
-                <p class="project-description">The objective was to create a portfolio website that displays my skills, mastered technologies, and leads to other projects.</p>
-                <h3>HTML, CSS</h3>
-                <br>
-                <a href="https://github.com/jeffreymark1/PortfolioWebsite" class="btn" target="_self">GitHub</a>
-            </div>
-        </div>
-    </div>
-
-    <br><br><br><br>
 
     <footer class="footer_bottom">
         <ul class="footer_list" id="contact">
@@ -147,34 +144,6 @@
         </ul>
     </footer>
 
-    <!--
-
-        <header>
-    <nav> </nav>
-  </header>
-
-  <main>
-    <section class="sectionOne">
-      <div class="sectOneDivOne"></div>
-      <div class="sectOneDivTwo"></div>
-      <div class="sectOneDivThree"></div>
-    </section>
-
-    <section class="sectionTwo">
-      <div class="sectTwoDivOne"></div>
-      <div class="sectTwoDivTwo"></div>
-      <div class="sectTwoDivThree"></div>
-      <div class="sectTwoDivFour"></div>
-      <div class="sectTwoDivFive"></div>
-      <div class="sectTwoDivSix"></div>
-    </section>
-    
-  </main>
-
-  <footer>
-    
-  </footer>
-
-    -->
 </body>
+
 </html>

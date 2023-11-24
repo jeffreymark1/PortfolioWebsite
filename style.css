@@ -1,18 +1,11 @@
 body {
-    background: lightgrey;
-    color: black;
     font-family: sans-serif;
-    /*background-image: url("images/triangles_pattern.webp");*/
-    /*background-image: url("images/pexels-michal-dziekonski-8526820.jpg");*/
-    /*background-size: cover;*/
-    /*background-position: center;*/
 }
 
 header {
     width: 100%;
-    background: white;
+    background: black;
     position:fixed;
-    border-bottom: 1px solid black;
     top: 0%;
     left: 0%
 }
@@ -27,6 +20,7 @@ nav ul {
     text-decoration: none;
     font-family: Arial, sans-serif;
     font-size: 20px;
+    color: white;
 }
 
 .navheaderlist:hover {
@@ -41,18 +35,23 @@ ul {
     list-style-type: none;
 }
 
+.sectOneDivOne {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    width: 1440px;
+    height: 636px;
+    background: black;
+}
+
 .intro_blurb {
     text-align: center;
+    color: white;
 }
 
 .intro_blurb_name {
     font-size: xx-large;
-}
-
-.me {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    color: white;
 }
 
 .mypic {
@@ -61,9 +60,22 @@ ul {
     border-radius: 100px;
 }
 
+.sectOneDivTwo {
+    width: 1440px;
+    height: 636px;
+    background: whitesmoke;
+}
+
+.about {
+    height: 550px;
+    margin-top: 10px;
+    padding-top: 50px;
+}
+
 .aboutMe {
     text-align: center;
-    padding: 1em;
+    display: flex;
+    flex-direction: column;
 }
 
 .seven {
@@ -73,47 +85,89 @@ ul {
 ol {
     padding-left: 5em;
     padding-right: 5em;
+    height: 500px;
+    display: grid;
+    margin: 0px;
 }
 
 .ga_logo {
-    width: 168px;
-    height: 18px;
+    width: 128px;
+    height: 14px;
+}
+
+.sectOneDivThree {
+    width: 1440px;
+    height: 636px;
+    background: black;
+}
+
+.developmentskillstext {
+    color: white;
+    text-align: center;
+    font-size: xx-large;
 }
 
 .skills {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: center;
-    background: lightgrey;
+    display: grid;
     padding: 0.5em;
+    background: black;
 }
 
-.skills img {
-    width: 5em;
-    height: 5em;
-}
-
-.skills img.rectangle {
-    width: 10em;
-    height: 5em;
-}
-
-.skills img.rectangle-axios {
-    width: 10em;
-    height: 2.5em;
-}
-
-.portfolio_projects_row_one {
+.skillsFirst {
     display: flex;
     justify-content: space-evenly;
-    flex-wrap: wrap;
+    padding-top: 50px;
 }
 
-.portfolio_projects_row_two {
+.skillsSecond {
     display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+}
+
+.skillsSquare, .skillsSquare-github, .skillsSquare-api {
+    width: 160px;
+    height: 160px;
+}
+
+.skillsRectangle, .skillsRectangle-node, .skillsRectangle-restful  {
+    width: 320px;
+    height: 160px;
+}
+
+.skillsRectangle-axios {
+    width: 320px;
+    height: 80px
+}
+
+.skillsRectangle-node, .skillsSquare-github, .skillsRectangle-restful, .skillsSquare-api {
+    background-color: rgba(253, 250, 250, 0.3);
+}
+
+.sectionTwo {
+    
+}
+
+.sectionTwoWrapOne {
+    display: grid;
+}
+
+.sectionTwoWrapTwo {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.rowFlexOne {
+    display: flex;
+    justify-content: space-between;
+}
+
+.rowFlexTwo {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
 }
 
 .portfolio_projects_row_three {
@@ -124,11 +178,16 @@ ol {
 
 .portfolio_projects_box {
     background: whitesmoke;
-    width: 30em;
-    height: 40em;
+    width: 702px;
+    height: 636px;
     text-align: center;
     border: none;
     border-radius: 3px;
+}
+
+.black {
+    background: black;
+    color: white;
 }
 
 .inside_box_pic {
@@ -183,6 +242,7 @@ footer {
     height: 36px;
 }
 
+/*
 @media(max-width:975px){
     nav ul{
         padding: 0px 0px;  
@@ -267,3 +327,4 @@ footer {
         width:50%;
     }
 }
+*/
