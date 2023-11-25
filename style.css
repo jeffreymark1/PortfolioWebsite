@@ -3,7 +3,7 @@ body {
 }
 
 header {
-    width: 100%;
+    width: 1440px;
     background: black;
     position:fixed;
     top: 0%;
@@ -221,7 +221,7 @@ footer {
     background: white;
     position: relative;
     bottom: 0%;
-    width: 100%;
+    width: 1440px;
     height: 75px;
 }
 
