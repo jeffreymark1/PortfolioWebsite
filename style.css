@@ -146,7 +146,7 @@ ol {
 }
 
 .sectionTwo {
-    
+    padding-top: 25px;
 }
 
 .sectionTwoWrapOne {
@@ -217,8 +217,7 @@ h3 {
 }
 
 footer {
-    border-top: 1px solid black;
-    background: white;
+    background: #f5f5f7;
     position: relative;
     bottom: 0%;
     width: 100%;
@@ -242,89 +241,89 @@ footer {
     height: 36px;
 }
 
-/*
-@media(max-width:975px){
-    nav ul{
-        padding: 0px 0px;  
-    }
-
-    .developmentskillstext{
-        text-align: center;
-   }
-   
-   .skills{
-        display: flex;
-        flex-direction: column;
-    }
-
-    #portfolio{
-        text-align: center;
-    }
-
-    .portfolio_projects_row_one, .portfolio_projects_row_two{
-        display: grid;
-        justify-items: center;
-    }
-
-    .portfolio_projects_box {
-        border: 1px solid black;
-        width: 95%;
-    } 
+@media(max-width:430px){
     
-    .inside_box_pic {
-        width: 85%;
+    .sectOneDivOne {
+        width: 430px;
+        height: 500px;
+    }
+
+    .sectOneDivTwo {
+        width: 430px;
+        height: 750px;
+    }
+
+    .about {
+        padding-top: 0px;
+    }
+
+    .seven {
+        padding-top: 25px;
+    }
+
+    ol {
+
+    }
+
+    .sectOneDivThree {
+        width: 430px;
+        height: 500px;
     }
     
-    .project-description {
-        width: 95%;
-    }
-}
-
-@media (max-width:414px){
-    nav ul {
-        padding: 0px 0px;
-        display: flex;
+    .skillsSquare, .skillsSquare-github, .skillsSquare-api {
+        width: 80px;
+        height: 80px;
     }
 
-    .mypic{
-        width: 70%;
-    }
-    
-    #portfolio{
-        text-align: center;
+    .skillsRectangle, .skillsRectangle-axios, .skillsRectangle-node, .skillsRectangle-restful {
+        width: 160px;
+        height: 80px;
     }
 
-    .portfolio_projects_row_one, .portfolio_projects_row_two{
+    .sectionOne_sectionTwo_sectionThree_Wrap {
         display: grid;
     }
+
+    .skills {
+        display: flex;
+    }
     
-    .portfolio_projects_box {
-        height: 400px;
-        width: 340px;
-    } 
-    
-    .inside_box_pic {
-        height:100px;
+    .skillsFirst, .skillsSecond {
+        display: flex;
         width: 200px;
+        flex-direction: column;
+        padding-top: 0px;
+    }
+
+    .sectionTwo {
+        padding-top: 75px;
     }
     
-    .project-description {
-        font-size:small;
-        padding: 0px 2px 0px 8px;
-        text-align: center;
+    .sectionTwoWrapOne {
+        display: grid;
+        justify-content: center;
     }
 
-    h1 {
-        font-size: 25px;
+    .rowFlexOne, .rowFlexTwo {
+        display: grid;
     }
 
-    h3{
-        text-align: center;
-        padding: 0px 4px;
+    .portfolio_projects_box {
+        width: 430px;
+        height: 600px;
     }
 
-    a.btn {
-        width:50%;
+    .media_margin_top {
+        margin-top: 20px;
+    }
+    
+    .inside_box_pic {
+        width: 344px;
+        height: 256px;
+    }
+    
+    footer {
+        display: grid;
+        top: 20px;
     }
 }
-*/
