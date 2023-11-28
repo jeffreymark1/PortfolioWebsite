@@ -326,4 +326,8 @@ footer {
         display: grid;
         top: 20px;
     }
+
+    .footer_list {
+        padding-left: 25px;
+    }
 }
