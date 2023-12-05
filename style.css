@@ -47,11 +47,21 @@ ul {
 .intro_blurb {
     text-align: center;
     color: white;
+    font-size: 21px;
+    line-height: 1.2381;
+    font-weight: 400;
+    letter-spacing: .016em;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .intro_blurb_name {
     font-size: xx-large;
     color: white;
+    /*font-size: 21px;*/
+    line-height: 1.2381;
+    font-weight: 400;
+    letter-spacing: .016em;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .mypic {
@@ -205,10 +215,6 @@ ol li {
     border-radius: 3px;
     pointer-events: all;
     cursor: pointer;
-}
-
-.portfolio_projects_box:hover {
-    
 }
 
 .black {
