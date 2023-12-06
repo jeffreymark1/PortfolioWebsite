@@ -19,16 +19,12 @@ nav ul {
 .navheaderlist {
     text-decoration: none;
     font-family: Arial, sans-serif;
-    font-size: 20px;
-    color: white;
+    font-size: 13px;
+    color: lightgray;
 }
 
 .navheaderlist:hover {
-    font-size: 21px;
-}
-
-.navheaderlist:focus {
-    font-size: 22px;
+    color: white;
 }
 
 ul {
@@ -122,11 +118,11 @@ ol li {
 .sectOneDivThree {
     width: 1440px;
     height: 636px;
-    background: black;
+    background: whitesmoke;
 }
 
 .developmentskillstext {
-    color: white;
+    color: black;
     text-align: center;
     margin-top: 15px;
     /*Font Styling*/
@@ -140,7 +136,7 @@ ol li {
 .skills {
     display: grid;
     padding: 0.5em;
-    background: black;
+    background: whitesmoke;
 }
 
 .skillsFirst {
@@ -169,10 +165,6 @@ ol li {
 .skillsRectangle-axios {
     width: 320px;
     height: 80px
-}
-
-.skillsRectangle-node, .skillsSquare-github, .skillsRectangle-restful, .skillsSquare-api {
-    background-color: rgba(253, 250, 250, 0.3);
 }
 
 .sectionTwo {
