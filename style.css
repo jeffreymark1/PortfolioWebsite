@@ -1,5 +1,7 @@
 body {
     font-family: sans-serif;
+    width: 100%;
+    margin: 8px 0px 0px 0px;
 }
 
 header {
@@ -283,6 +285,7 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    padding-top: 15px;
     padding-left: 0px;
 }
 
@@ -297,6 +300,14 @@ footer {
 }
 
 @media(max-width:430px){
+    body {
+        width: 100%;
+        margin: 8px 0px 0px 0px;
+    }
+
+    header {
+        width: 100%;
+    }
     
     .sectOneDivOne {
         width: 430px;
@@ -318,7 +329,7 @@ footer {
 
     .sectOneDivThree {
         width: 430px;
-        height: 500px;
+        height: 600px;
     }
     
     .skillsSquare, .skillsSquare-github, .skillsSquare-api {
@@ -347,7 +358,7 @@ footer {
     }
 
     .sectionTwo {
-        padding-top: 75px;
+        padding-top: 60px;
     }
     
     .sectionTwoWrapOne {
@@ -361,7 +372,7 @@ footer {
 
     .portfolio_projects_box {
         width: 430px;
-        height: 600px;
+        height: 730px;
     }
 
     .media_margin_top {
@@ -376,9 +387,11 @@ footer {
     footer {
         display: grid;
         top: 20px;
+        width: 430px;
     }
 
     .footer_list {
+        padding-top: 0px;
         padding-left: 25px;
     }
 }
