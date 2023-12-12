@@ -299,6 +299,65 @@ footer {
     height: 36px;
 }
 
+@media(max-width:932px){
+    .portfolio_projects_box {
+        width: 448px;
+        height: 761px;
+    }
+
+    header {
+        width: 932px;
+    }
+
+    .sectOneDivOne, .sectOneDivTwo, .sectOneDivThree {
+        width: 932px;
+    }
+
+    .developmentskillstext {
+        font-size: 32px;
+    }
+
+    .skills {
+        width: 932px;
+        padding: 0px 0px 0px 0px;
+    }
+
+    .skillsFirst, .skillsSecond {
+        width: 932px;
+    }
+
+    .skillsSquare, .skillsSquare-github, .skillsSquare-api {
+        width: 104px;
+        height: 104px;
+    }
+    
+    .skillsRectangle, .skillsRectangle-node, .skillsRectangle-restful  {
+        width: 208px;
+        height: 104px;
+    }
+    
+    .skillsRectangle-axios {
+        width: 208px;
+        height: 52px
+    }
+
+    .rowFlexOne, .rowFlexTwo {
+        display:flex;
+        justify-content: space-evenly;
+    }
+
+    .project_title {
+        font-size: 32px;
+    }
+
+    .project-description {
+        font-size: 19px;
+        line-height: 1.21053;
+        letter-spacing: .012em;
+    }
+
+}
+
 @media(max-width:430px){
     body {
         width: 100%;
@@ -330,6 +389,13 @@ footer {
     .sectOneDivThree {
         width: 430px;
         height: 600px;
+    }
+
+    .developmentskillstext {
+        font-size: 32px;
+        line-height: 1.125;
+        letter-spacing: .004em;
+        font-family: Arial, Helvetica, sans-serif;
     }
     
     .skillsSquare, .skillsSquare-github, .skillsSquare-api {
