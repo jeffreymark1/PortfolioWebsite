@@ -365,7 +365,7 @@ footer {
     }
 
     header {
-        width: 100%;
+        width: 430px;
     }
     
     .sectOneDivOne {
@@ -389,6 +389,10 @@ footer {
     .sectOneDivThree {
         width: 430px;
         height: 600px;
+    }
+
+    .skills {
+        width: 430px;
     }
 
     .developmentskillstext {
