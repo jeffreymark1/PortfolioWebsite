@@ -465,3 +465,48 @@ footer {
         padding-left: 25px;
     }
 }
+
+@media(max-width:390px){
+    header {
+        width: 390px;
+    }
+
+    ul {
+        padding-left: 0px;
+    }
+
+    .developmentskillstext {
+        font-size: 24px;
+    }    
+
+    .sectOneDivOne {
+        width: 390px;
+    }
+
+    .sectOneDivTwo {
+        width: 390px;
+        height: 1500px;
+    }
+
+    .sectOneDivThree {
+        width: 390px;
+    }
+
+    .skills {
+        width: 390px;
+    }
+
+    .sectionTwo {
+        width: 390px;
+        padding-top: 15px;
+    }
+
+    .portfolio_projects_box {
+        width: 390px;
+        height: 650px;
+    }
+
+    footer {
+        width: 390px;
+    }
+}
