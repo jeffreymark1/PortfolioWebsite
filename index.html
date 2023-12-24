@@ -70,7 +70,7 @@
     <section class="sectionTwo">
             <div class="sectionTwoWrapOne" id="sectionTwoWrapOne">
                 <div class="rowFlexOne">
-                    <div class = "portfolio_projects_box black"><a href="https://odysseynoir.netlify.app/" target="_blank"></a>
+                    <div class = "portfolio_projects_box boxOne"><a href="https://odysseynoir.netlify.app/" target="_blank"></a>
                         <div class = "fake_cat_resume_description">
                             <h4 class="project_title">Odyssey Noir</h4>
                                 <div class = "inside-box-pic-div"><img class="inside_box_pic" src="images/OdysseyNoirPic.png" alt="OdysseyNoirPic"></div>
@@ -82,7 +82,7 @@
                     </div>
 
                     
-                    <div class = "portfolio_projects_box media_margin_top">
+                    <div class = "portfolio_projects_box media_margin_top boxTwo">
                         <div class = "fashion_blog_description">
                             <h4 class="project_title">Fashion Blog</h4>
                                 <div class = "inside-box-pic-div"><img class="inside_box_pic" src="images/fashion-blog.jpg" alt="fashion-blog"></div>
@@ -95,7 +95,7 @@
                 </div>
 
                 <div class="rowFlexTwo">    
-                    <div class = "portfolio_projects_box">
+                    <div class = "portfolio_projects_box boxThree">
                         <div class = "open_weather_api_descriptioin">
                             <h4 class="project_title">Open Weahter API</h4>
                                 <div class = "inside-box-pic-div"><img class="inside_box_pic" src="images/open-weather-api.png" alt="open-weather-website"></div>
@@ -107,7 +107,7 @@
                     </div>
                     
 
-                    <div class = "portfolio_projects_box black media_margin_top">
+                    <div class = "portfolio_projects_box black media_margin_top boxFour">
                         <div class = "final_project_description">
                             <h4 class="project_title">Virgin Galactic Parallax</h4>
                                 <div class = "inside-box-pic-div"><img class="inside_box_pic" src="images/virgin-parallex.png" alt="virgin-parallex"></div>
@@ -123,18 +123,49 @@
 
     <section class="sectionThree">
         <div class = "sectionTwoWrapTwo">
-            <div class = "portfolio_projects_box">
+            <div class = "portfolio_projects_box boxFive">
                 <div class = "this_website_description">
                     <h4 class="project_title">This Website</h4>
                         <div class = "inside-box-pic-div"><img class="inside_box_pic" src="images/ThisWebsite.png" alt="this-website"></div>
                     <p class="project-description">The objective was to create a portfolio website that displays my skills, mastered technologies, and leads to other projects.</p>
                     <h3>HTML, CSS</h3>
                     <br>
-                    <a href="https://github.com/jeffreymark1/PortfolioWebsite" class="btn" target="_self">GitHub</a>
+                    <a href="https://github.com/jeffreymark1/" class="btn" target="_self">GitHub</a>
                 </div>
             </div>
         </div>
     </section>
+    
+    <!-- <section class="slideSection">
+        <script>
+            let i = 0; //Start point
+            let images = [];
+            let time = 2000;
+
+            images[0] = "images/HTML5_logo.svg.png";
+            images[1] = "images/css3-logo.svg";
+            images[2] = "images/js-logo.png";
+
+            //Change images
+            function changeImg(){
+                document.slide.src = images[i];
+                
+                if(i < images.length - 1){
+                    i++;
+                } else {
+                    i = 0
+                }
+
+                setTimeout("changeImg()", time);
+            }
+
+            window.onload = changeImg;
+
+        </script>
+        
+        <img name="slide" width="400" height="200">
+    </section> -->
+
 </div>
 
     <footer class="footer_bottom">
