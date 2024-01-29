@@ -5,8 +5,6 @@ const ppbThree = document.querySelector(".boxThree");
 const ppbFour = document.querySelector(".boxFour");
 const ppbFive = document.querySelector(".boxFive");
 
-console.log(ppbFour);
-
 //EventListeners
 ppbOne.addEventListener ('click', (e) => {
     window.open("https://odysseynoir.netlify.app/", "_blank");
