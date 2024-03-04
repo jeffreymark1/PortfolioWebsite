@@ -510,3 +510,13 @@ footer {
         width: 390px;
     }
 }
+
+@media (min-width:1401px){
+    .sectOneDivOne, .sectOneDivTwo, .sectOneDivThree {
+        width: 100%;
+    }
+
+    .rowFlexOne, .rowFlexTwo {
+        justify-content: space-around;
+    } 
+}
