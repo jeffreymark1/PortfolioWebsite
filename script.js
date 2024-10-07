@@ -6,22 +6,22 @@ const ppbFour = document.querySelector(".boxFour");
 const ppbFive = document.querySelector(".boxFive");
 
 //EventListeners
-ppbOne.addEventListener ('click', (e) => {
+ppbOne.addEventListener ('click', (event) => {
     window.open("https://odysseynoir.netlify.app/", "_blank");
 })
 
-ppbTwo.addEventListener ('click', (e) => {
+ppbTwo.addEventListener ('click', (event) => {
     window.open("https://fashionblogproject.netlify.app", "_blank");
 })
 
-ppbThree.addEventListener ('click', (e) => {
+ppbThree.addEventListener ('click', (eevent) => {
     window.open("https://openweathersite.netlify.app", "_blank");
 })
 
-ppbFour.addEventListener ('click', (e) => {
+ppbFour.addEventListener ('click', (event) => {
     window.open("https://virgingalacticparallax.netlify.app", "_blank");
 })
 
-ppbFive.addEventListener ('click', (e) => {
+ppbFive.addEventListener ('click', (event) => {
     window.open("https://github.com/jeffreymark1/", "_self");
 })
